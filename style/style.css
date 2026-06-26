@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container { font-family: "bebas-neue", sans-serif;
+font-weight: 400;
+	font-style: normal;
+font-size: 30px;
+color: #1a3f6f;
+
+}
+
+.quality { font-family: "bebas-neue", sans-serif;
+font-weight: 400;
+	font-style: normal;
+font-size: 30px;
+color: #ffffff;}
+
+.topheader{
+
+    background:white;
+
+    padding:2px 10px;
+
+}
+
+body {
+  background-color: #1a3f6f;
+}
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+.nav{
+    float: right;
+    margin-top: 35px;
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.nav a{
+    text-decoration: none;
+    font-family: "bebas-neue", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #1A3F6F;
+}
+
+.nav a:hover{
+    color: #ACB1B7;
+}
+
+
+.quality p {
+	font-family: "Futura PT Medium"
+	
+}
+.banner {
+  background: url("../images/gradient-banner.jpg");
+  background-size: cover;
+  height: 812px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-left: 80px;
+align-items: flex-start;
+}
+
+
+.white-strip {
+  width: 20px;
+  height: 500px;
+  background-color: white;
+	margin-left: 20px;
+	margin-top: 30px
+}
+.getaquote {
+	
+	width: 231px;
+  height: 67px;
+  background-color: white;
+	 
+	
+}
+
+.getaquote {
+  width: 231px;
+  height: 67px;
+  background-color: white;
+	margin-left: 90px;
+	font-family: "bebas-neue", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1A3F6F;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.hero-top {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.servicesoffer {
+	border:2px solid #FFFFFF;
+	height: 80px;
+	width: 400px;
+	font-family: "bebas-neue", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    color: #FFFFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	margin-left: 150px;
+	margin-top: 50px;
+}
+.services {
+	
+	font-family: "Futura PT Medium";
+    font-weight: 200;
+    font-size: 15px;
+    color: #FFFFFFFF;
+	
+}
+
+.services {
+	
+	position: relative;
+	left: 20px;
+	
+}
+
+
+
+
+.serviceimg {
+	
+	display: block;
+	margin-bottom: 15px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 200px 30px;
+}
+
+
+td {
+  text-align: center;
+  vertical-align: top;
+}
+
+
+.whyus{
+	
+	border: 0px solid #FFFFFF;
+	float: right;
+	width: 300px;
+	margin-right: 100px;
+	font-family: "Futura PT Medium";
+    font-weight: 200;
+    font-size: 18px;
+    color: #FFFFFFFF;
+}
+
+.whyus h1{
+	
+	font-family: "bebas-neue", sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+    color: #FFFFFFFF;
+	margin: 0 auto;
+	
+}
+
+.line1 {
+	border: 1px solid #FFFFFF;
+	width: 600px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix::after{
+content: "";
+clear:both;
+display: block;
+}
